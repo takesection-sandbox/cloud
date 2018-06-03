@@ -3,7 +3,7 @@ awscli
 
 Raspbian
 
-* [https://docs.docker.com/install/linux/docker-ce/debian/:title]
+* [Get Docker CE for Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
 
 # Build
 
@@ -15,5 +15,5 @@ docker build . -t arm32v6-awscli
 
 ```
 AWS_ACCESS_KEY_ID=******** AWS_SECRET_ACCESS_KEY=******** \
-docker run -it -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY arm32v6-awscli /bin/shdocker build . -t arm32v6-awscli
+docker run -it -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY arm32v6-awscli /bin/sh
 ```
